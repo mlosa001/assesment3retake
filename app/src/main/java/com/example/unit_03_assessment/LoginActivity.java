@@ -40,9 +40,9 @@ public class LoginActivity extends AppCompatActivity {
         });
 
         /*
-         * TODO: add logic to confirm that, if there is a username value AND checkbox value in shared preferences:
-         * TODO: 1. set the username EditText's value to the username value from shared preferences
-         * TODO: 2. set the checkbox's value to the checkbox value from shared preferences
+        * TODO: add logic to set values to views:
+        * TODO: 1. if there is a username value AND checkbox value in shared preferences - set the username EditText's value to the username value from shared preferences, and set the checkbox's value to the checkbox value from shared preferences
+
          */
 
         Button mEmailSignInButton = (Button) findViewById(R.id.email_sign_in_button);
@@ -81,8 +81,7 @@ public class LoginActivity extends AppCompatActivity {
         } else {
             /*
              * TODO: Add logic to confirm that:
-             * TODO: 1. the username matches the username stored in strings.xml
-             * TODO: 2. the password matches the password stored in strings.xml
+             * TODO: 2. the username matches the username stored in strings.xml and the password matches the password stored in strings.xml
              * TODO: 3. the checkbox is ticked - if both email and password in EditTexts match strings.xml, add username value and checkbox value to shared preferences
              * TODO: 4. the checkbox is NOT ticked - if it is not ticked, clear username in shared preferences
              * TODO: 5. if both email and password in EditTexts match strings.xml, move to RecyclerActivity
