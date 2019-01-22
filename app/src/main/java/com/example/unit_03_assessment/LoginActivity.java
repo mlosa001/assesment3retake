@@ -24,7 +24,6 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        // Set up the login form.
         emailView = (EditText) findViewById(R.id.email_edittext);
         passwordView = (EditText) findViewById(R.id.password_edittext);
         usernameCheckbox = (CheckBox) findViewById(R.id.remember_username_checkbox);
@@ -84,11 +83,10 @@ public class LoginActivity extends AppCompatActivity {
              * TODO: Add logic to confirm that:
              * TODO: 1. the username matches the username stored in strings.xml
              * TODO: 2. the password matches the password stored in strings.xml
-             * TODO: 3. the checkbox is ticked - if both email and password match, add username value and checkbox value to shared preferences
+             * TODO: 3. the checkbox is ticked - if both email and password in EditTexts match strings.xml, add username value and checkbox value to shared preferences
              * TODO: 4. the checkbox is NOT ticked - if it is not ticked, clear username in shared preferences
              * TODO: 5. if both email and password in EditTexts match strings.xml, move to RecyclerActivity
              */
-
         }
 
         if (cancel) {
