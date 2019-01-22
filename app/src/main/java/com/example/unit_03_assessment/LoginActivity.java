@@ -1,5 +1,6 @@
 package com.example.unit_03_assessment;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -84,9 +85,10 @@ public class LoginActivity extends AppCompatActivity {
              * TODO: 1. the username matches the username stored in strings.xml
              * TODO: 2. the password matches the password stored in strings.xml
              * TODO: 3. the checkbox is ticked - if both email and password match, add username value and checkbox value to shared preferences
-             * TODO: 4. the checkbox is NOT ticked - clear username to shared preferences
-             * TODO: 5. if both email and password match, move to RecyclerActivity
+             * TODO: 4. the checkbox is NOT ticked - if it is not ticked, clear username in shared preferences
+             * TODO: 5. if both email and password in EditTexts match strings.xml, move to RecyclerActivity
              */
+
         }
 
         if (cancel) {

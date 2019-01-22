@@ -13,7 +13,10 @@ public class DisplayActivity extends AppCompatActivity {
         /*
         * TODO: Add logic that will:
         * TODO 1. Receive values from sending intent
-        * TODO 2. Display each value in views - TextView, ImageView, etc.
+        * TODO 2. Create a TextView instance for the Planet Name
+        * TODO 3. Create a TextView instance for the Planet Number count
+        * TODO 4. Create an ImageView for the image url
+        * TODO 5. Display each value in views - Strings for TextViews, and Picasso for the ImageView
         */
     }
 }
