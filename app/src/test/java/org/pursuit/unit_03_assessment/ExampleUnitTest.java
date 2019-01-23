@@ -1,4 +1,4 @@
-package com.example.unit_03_assessment;
+package org.pursuit.unit_03_assessment;
 
 import org.junit.Test;
 

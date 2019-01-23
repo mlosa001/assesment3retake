@@ -1,4 +1,4 @@
-package com.example.unit_03_assessment;
+package org.pursuit.unit_03_assessment;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

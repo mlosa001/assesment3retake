@@ -1,7 +1,9 @@
-package com.example.unit_03_assessment;
+package org.pursuit.unit_03_assessment;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import org.pursuit.unit_03_assessment.R;
 
 public class DisplayActivity extends AppCompatActivity {
 

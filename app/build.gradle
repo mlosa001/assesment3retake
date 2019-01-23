@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.example.unit_03_assessment"
+        applicationId "org.pursuit.unit_03_assessment"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
